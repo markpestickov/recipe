@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800|Spectral:200,300,400,400i,500,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+	<title>Оливье</title>
+</head>
+<body>
+	<header class="header">
+		<a class="logo__link" href="index.html">
+			<h1 class="logo">Рецепты<span>.</span></h1>
+		</a>
+		<nav role="navigation">
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a class="menu__link" href="#">Новый год 2019</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Вегетерианские</a>
+					<div class="sub-menu_wrapper_absolute">
+						<div class="sub-menu_wrapper_relative">
+							<div class="sub-menu">
+								<ul class="sub-menu__item sub-menu-list">
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">Рыба и вино</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">С молочными продуктами</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">100% Веган</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">Сыроедические</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">Только фрукты</a></li>
+								</ul>
+								<div class="sub-menu__item sub-menu-recipe">
+									<div class="recipe-thumb">
+										<a class="recipe-thumb__link" href="recipe.html">
+											<div class="recipe-thumb__image">
+												<img class="recipe-thumb__photo" src="img/pie-1.jpg" alt="" >
+											</div>
+											<h3 class="recipe-thumb__heading">Пирог с клубникой</h3>
+										</a>
+									</div>									
+								</div>
+								<div class="sub-menu__item sub-menu-recipe">
+									<div class="recipe-thumb">
+										<a class="recipe-thumb__link" href="">
+											<div class="recipe-thumb__image">
+												<img class="recipe-thumb__photo" src="img/pie-1.jpg" alt="" >
+											</div>
+											<h3 class="recipe-thumb__heading">Пирог с клубникой, малиной и ежевикой</h3>
+										</a>
+									</div>									
+								</div>
+								<div class="sub-menu__item sub-menu-recipe">
+									<div class="recipe-thumb">
+										<a class="recipe-thumb__link" href="recipe.html">
+											<div class="recipe-thumb__image">
+												<img class="recipe-thumb__photo" src="img/pie-1.jpg" alt="" >
+											</div>
+											<h3 class="recipe-thumb__heading">Пирог с клубникой</h3>
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="menu__item"><a class="menu__link" href="#">Детское меню</a></li>
+			</ul>
+			<ul class="menu_mobile">
+				<li class="menu__item"><a href="javascript:void(0);" class="menu__link_mobile" onclick="myFunction()">Меню</a></li>
+			</ul>
+		</nav>
+		
+		<nav class="navigation_position_right" role="navigation">
+			<ul class="menu">
+				<li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<article class="recipe container">
+		<header class="recipe__header col-md-12">
+			<img class="recipe__photo" src="img/russian-salad-.jpg" alt="">
+			<h1 class="recipe__name">Оливье: новогодний / русский салат</h1>
+		</header>
+
+		<div class="col-md-8">
+			<section class="ingredients">
+				<h2 class="ingredients__header">Ингридиенты</h2>
+				<table class="ingredients-table">
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">9</td>
+						<td class="ingredients-table__item_position_right">яиц</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">250 г</td>
+						<td class="ingredients-table__item_position_right">маринованой селёдки</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">80 г</td>
+						<td class="ingredients-table__item_position_right">	ветчины</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">80 г</td>
+						<td class="ingredients-table__item_position_right">	курицы</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">300 г</td>
+						<td class="ingredients-table__item_position_right">	докторской колбасы</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">8</td>
+						<td class="ingredients-table__item_position_right">	солёных огурцов</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">10 г</td>
+						<td class="ingredients-table__item_position_right">	лука</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">3</td>
+						<td class="ingredients-table__item_position_right">	картошки</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">2</td>
+						<td class="ingredients-table__item_position_right">	морковки</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">150 г</td>
+						<td class="ingredients-table__item_position_right">	горошка</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">1 ч.л.</td>
+						<td class="ingredients-table__item_position_right">	горчицы</td>
+					</tr>
+					<tr class="ingredients-table__item">
+						<td class="ingredients-table__item_position_left">300 мл</td>
+						<td class="ingredients-table__item_position_right">	растительного масла</td>
+					</tr>
+				</table>
+			</section>
+
+			<section class="step">
+				<h2 class="step__header step__header_first">Шаг 1/8</h2>
+				<img class="step__photo" src="img/russian-salad-1.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">6</span>
+						<span class="step-ingredients__item_text_regular">яиц</span>
+					</li>
+				</ul>
+				<p class="step__description">Добавьте две трети яиц в кастрюлю и залейте холодной водой. Доведите до кипения и дайте повариться 7 - 8 мин. Вынуть из кастрюли и сразу же промыть холодной водой. Очистить, когда яйца остынут.</p>
+			</section>
+
+			<section class="step">
+				<h2 class="step__header">Шаг 2/8</h2>
+				<img class="step__photo" src="img/russian-salad-2.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">250 г</span>
+						<span class="step-ingredients__item_text_regular">селёдки</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">80 г</span>
+						<span class="step-ingredients__item_text_regular">ветчины</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">80 г</span>
+						<span class="step-ingredients__item_text_regular">курицы</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">300 г</span>
+						<span class="step-ingredients__item_text_regular">докторской колбасы</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">10 г лука</span>
+						<span class="step-ingredients__item_text_regular step-ingredients__item_text_last">water</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">3</span>
+						<span class="step-ingredients__item_text_regular step-ingredients__item_text_last">картошки</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">2</span>
+						<span class="step-ingredients__item_text_regular step-ingredients__item_text_last">моркови</span>
+					</li>
+				</ul>
+				<p class="step__description">Покрышить яйца. Порезать селёдку, варёную курицу и маринованые огурцы. Мелко нарезать лук. Картофель и морковь очистить и нарезать мелкими кубиками.</p>
+			</section>
+
+			<section class="step">
+				<h2 class="step__header">Шаг 3/8</h2>
+				<img class="step__photo" src="img/russian-salad-3.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold"></span>
+						<span class="step-ingredients__item_text_regular">соль</span>
+					</li>
+					
+				</ul>
+				<p class="step__description">Добавить кубики моркови в кастрюлю с слегка подсоленной кипящей водой и бланшировать в течение 3 - 4 мин. Вынуть из воды и остудить.</p>
+			</section>
+			<section class="step">
+				<h2 class="step__header">Шаг 4/8</h2>
+				<img class="step__photo" src="img/russian-salad-4.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">150 г</span>
+						<span class="step-ingredients__item_text_regular">горошка</span>
+					</li>				
+				</ul>
+				<p class="step__description">Затем добавить горох в кипящую воду и бланшировать в течение 2 - 3 мин. Дать остыть вместе с морковью.</p>
+			</section>
+			<section class="step">
+				<h2 class="step__header">Шаг 5/8</h2>
+				<img class="step__photo" src="img/russian-salad-5.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold"></span>
+						<span class="step-ingredients__item_text_regular">соль</span>
+					</li>				
+				</ul>
+				<p class="step__description">В другой кастрюле довести до кипения слегка подсоленную воду. Добавьте картофельные кубики и продолжайте готовить в течение 10 - 13 мин. пока не свариться до конца. Затем вынуть из воды и отложить в сторону.</p>
+			</section>
+			<section class="step">
+				<h2 class="step__header">Шаг 6/8</h2>
+				<img class="step__photo" src="img/russian-salad-6.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">3</span>
+						<span class="step-ingredients__item_text_regular">яйца</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">1 ч.л.</span>
+						<span class="step-ingredients__item_text_regular">горчицы</span>
+					</li>				
+				</ul>
+				<p class="step__description">От оставшихся яиц отделите желток. Добавьте горчицу и взбейте венчиком, чтобы все хорошо перемешалось.</p>
+			</section>
+			<section class="step">
+				<h2 class="step__header">Шаг 7/8</h2>
+				<img class="step__photo" src="img/russian-salad-7.jpg" alt="">
+				<ul class="step-ingredients">
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">300 мл</span>
+						<span class="step-ingredients__item_text_regular">растительного масла</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">½</span>
+						<span class="step-ingredients__item_text_regular">лимона</span>
+					</li>				
+				</ul>
+				<p class="step__description">Равномерно добавьте растительное масло в яичные желтки, постоянно помешивая. Взбейте хорошенько. Затем приправьте по вкусу солью, перцем и лимонным соком.</p>
+			</section>
+			<section class="step">
+				<h2 class="step__header">Шаг 8/8</h2>
+				<img class="step__photo" src="img/russian-salad-8.jpg" alt="">
+				<ul class="step-ingredients">
+					
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold">½</span>
+						<span class="step-ingredients__item_text_regular">лимона</span>
+					</li>
+					<li class="step-ingredients__item">
+						<span class="step-ingredients__item_text_bold"></span>
+						<span class="step-ingredients__item_text_regular">соль</span>
+						<span class="step-ingredients__item_text_regular">перец</span>
+					</li>				
+				</ul>
+				<p class="step__description">Добавьте в большую миску картофель, морковь, горох, маринованые огурцы, яйца, вареное мясо, сельдь и лук. Добавить майонез и приправте по вкусу солью, перцем, цедрой и соком оставшегося лимона. Тщательно перемешайте, чтобы объединить все ингредиенты.</p>
+			</section>
+		</div>
+
+
+		<aside class="similar-recipes col-md-4">
+			<h2 class="similar-recipes__heading">Ещё вкустные рецепты:</h2>
+			<div class="similar-recipe">
+				<img class="similar-recipe__photo" src="img/1.jpg" alt="">
+				<h3 class="similar-recipe__name">Запечёные пончики с клюквой и корицей</h3>
+			</div>
+			<div class="similar-recipe">
+				<img class="similar-recipe__photo" src="img/2.jpg" alt="">
+				<h3 class="similar-recipe__name">Лосось с клюквой, джином и укропом</h3>
+			</div>
+			<div class="similar-recipe">
+				<img class="similar-recipe__photo" src="img/3.jpg" alt="">
+				<h3 class="similar-recipe__name">Курица по-индийски</h3>
+			</div>
+		</aside>
+
+	</article>
+
+	<footer class="footer">
+		<a class="logo__link" href="index.html">
+			<h1 class="logo logo_size_m">Рецепты<span>.</span></h1>
+		</a>
+		<p class="footer__year">2018</p>
+		<ul class="footer-contacts">
+			<li class="footer-contacts__item">
+				<a href="https://www.facebook.com/mpestickov" target="_blank">Марк Пестиков</a>
+			</li>
+		</ul>
+	</footer>
+	
+</body>
+</html>

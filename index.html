@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800|Spectral:200,300,400,400i,500,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+	<title>Рецепты</title>
+</head>
+<body>
+	<header class="header">
+		<a class="logo__link" href="index.html">
+			<h1 class="logo">Рецепты<span>.</span></h1>
+		</a>
+		<nav role="navigation">
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a class="menu__link" href="#">Новый год 2019</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Вегетерианские</a>
+					<div class="sub-menu_wrapper_absolute">
+						<div class="sub-menu_wrapper_relative">
+							<div class="sub-menu">
+								<ul class="sub-menu__item sub-menu-list">
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">Рыба и вино</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">С молочными продуктами</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">100% Веган</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">Сыроедические</a></li>
+									<li class="sub-menu-list__item"><a href="#" class="menu__link">Только фрукты</a></li>
+								</ul>
+								<div class="sub-menu__item sub-menu-recipe">
+									<div class="recipe-thumb">
+										<a class="recipe-thumb__link" href="recipe.html">
+											<div class="recipe-thumb__image">
+												<img class="recipe-thumb__photo" src="img/1.jpg" alt="" >
+											</div>
+											<h3 class="recipe-thumb__heading">Запечёные пончики с клюквой и корицей</h3>
+										</a>
+									</div>									
+								</div>
+								<div class="sub-menu__item sub-menu-recipe">
+									<div class="recipe-thumb">
+										<a class="recipe-thumb__link" href="">
+											<div class="recipe-thumb__image">
+												<img class="recipe-thumb__photo" src="img/2.jpg" alt="" >
+											</div>
+											<h3 class="recipe-thumb__heading">Лосось с клюквой, джином и укропом</h3>
+										</a>
+									</div>									
+								</div>
+								<div class="sub-menu__item sub-menu-recipe">
+									<div class="recipe-thumb">
+										<a class="recipe-thumb__link" href="recipe.html">
+											<div class="recipe-thumb__image">
+												<img class="recipe-thumb__photo" src="img/8.jpg" alt="" >
+											</div>
+											<h3 class="recipe-thumb__heading">Гребешки и тушеный швейцарский мангольд</h3>
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="menu__item"><a class="menu__link" href="#">Детское меню</a></li>
+			</ul>
+			<ul class="menu_mobile">
+				<li class="menu__item"><a href="javascript:void(0);" class="menu__link_mobile" onclick="responsiveMenu()">Меню</a></li>
+			</ul>
+		</nav>
+
+		<nav class="navigation_position_right" role="navigation">
+			<ul class="menu">
+				<li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="slider">
+		<div class="slider__image">
+			<img class="slider__photo" src="img/russian-salad.jpg" alt="">
+		</div>
+		<div class="slider__text">
+			<div class="slider-text-content">
+				<h2 class="slider-text-content__heading">Оливье<br> много не бывает</h2>
+				<p class="slider-text-content__description">Лучшие рецепты оливье от бабушкиной классики до "правильного" оригинального рецепта с мясом краба, перепелами и чёрной икрой</p>
+				<a class="slider-text-content__link" href="recipe.html">Готовить</a>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<section class="featured-recipe">
+			<h2 class="featured-recipe__heading col-md-12">Популярные рецепты</h2>
+			<div class="recipe-thumb col-md-3">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/4.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Липкий пудинг с карамелью и мороженым</h3>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-3">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/5.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Говядина Веллингтон</h3>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-3">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/6.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Диетический лосось с чесночным масломи</h3>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-3">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/7.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Гребешки и тушеный швейцарский мангольд</h3>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-6">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/3.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Курица по-индийски</h3>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-3">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/1.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Запечёные пончики с клюквой и корицейми</h3>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-3">
+				<a class="recipe-thumb__link" href="recipe.html">
+					<div class="recipe-thumb__image">
+						<div class="recipe-thumb__photo_gradient"></div>
+						<img class="recipe-thumb__photo" src="img/2.jpg" alt="" >
+						<i class="recipe-thumb__like far fa-heart">
+							<span>73</span>
+						</i>
+						<span class="recipe-thumb__time">25 мин.</span>
+					</div>
+					<h3 class="recipe-thumb__heading">Лосось с клюквой, джином и укропоми</h3>
+				</a>
+			</div>
+	
+		</section>
+
+		<section class="categories">
+			<h2 class="featured-recipe__heading col-md-12">Категории рецептов</h2>	
+			<div class="recipe-thumb col-md-4">
+				<a class="recipe-thumb__link" href="#">
+					<div class="recipe-thumb__image category-thumb__image">
+
+						<img class="recipe-thumb__photo category-thumb__photo" src="img/cristmas.jpg" alt="" >
+						<div class="recipe-thumb__photo_gradient"></div>
+						<h3 class="recipe-thumb__heading category-thumb__heading">Рожденственские блюда</h3>
+					</div>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-4">
+				<a class="recipe-thumb__link" href="#">
+					<div class="recipe-thumb__image category-thumb__image">
+
+						<img class="recipe-thumb__photo category-thumb__photo" src="img/bakery.jpg" alt="" >
+						<div class="recipe-thumb__photo_gradient"></div>
+						<h3 class="recipe-thumb__heading category-thumb__heading">Выпечка</h3>
+					</div>
+				</a>
+			</div>
+			<div class="recipe-thumb col-md-4">
+				<a class="recipe-thumb__link" href="#">
+					<div class="recipe-thumb__image category-thumb__image">
+
+						<img class="recipe-thumb__photo category-thumb__photo" src="img/asian.jpg" alt="" >
+						<div class="recipe-thumb__photo_gradient"></div>
+						<h3 class="recipe-thumb__heading category-thumb__heading">Тайская еда</h3>
+					</div>
+				</a>
+			</div>			
+		</section>
+	</div>
+
+	<footer class="footer">
+		<a class="logo__link" href="index.html">
+			<h1 class="logo logo_size_m">Рецепты<span>.</span></h1>
+		</a>
+		<p class="footer__year">2018</p>
+		<ul class="footer-contacts">
+			<li class="footer-contacts__item">
+				<a href="https://www.facebook.com/mpestickov" target="_blank">Марк Пестиков</a>
+			</li>
+		</ul>
+	</footer>
+
+	<script>
+	function responsiveMenu() {
+		var x = document.getElementById("menu");
+		if (x.className === "menu") {
+			x.className += " responsive";
+		} else {
+			x.className = "menu";
+		}
+	}
+	</script>
+</body>
+</html>
